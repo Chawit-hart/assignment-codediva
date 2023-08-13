@@ -1,0 +1,134 @@
+.layout{
+    background: none;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    min-height: 0;
+    background: #f0f2f5;
+}
+
+.layout-content{
+    padding: 0;
+    margin: 0;
+    flex: auto;
+    min-height: 0;
+    margin-bottom: 200px;
+}
+
+.container{
+    padding: 0 24px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.box-header-login{
+    color: #fff;
+    height: 240px;
+    padding: 32px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #dbdbdb;
+    background-size: cover;
+    background-position: top;
+    background-image: url('./component/img/header-register.png');
+}
+
+.box-header-login h2{
+    color: inherit;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.box-login{
+    max-width: 480px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.box-body-login{
+    padding: 40px;
+}
+
+.login-label-email>label{
+    color: #3b3b3b;
+}
+
+.input-email{
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    position: relative;
+    height: auto;
+    margin-right: 0;
+    margin-left: 0;
+    zoom: 1;
+    display: block;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.form-input{
+    padding-top: 15px;
+}
+
+.input-password {
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    position: relative;
+    height: auto;
+    margin-right: 0;
+    margin-left: 0;
+    zoom: 1;
+    display: block;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.forgot-password {
+    line-height: 1.5;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.forgot-password a {
+    color: #e21c23;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.button-submit-login {
+    cursor: pointer;
+    line-height: 1.499;
+    position: relative;
+    display: inline-block;
+    font-weight: 300;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    box-shadow: 0 2px 0 rgba(0,0,0,.015);
+    cursor: pointer;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+    touch-action: manipulation;
+    height: 48px;
+    font-size: 14px;
+    border-radius: 50px;
+    color: #e21c23;
+    background-color: #fff;
+    border: 1px solid #e21c23;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.button-submit-login:hover {
+    background-color: #e21c23;
+    color: #fff;
+}

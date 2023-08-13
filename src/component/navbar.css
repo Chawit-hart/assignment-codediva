@@ -1,0 +1,89 @@
+.navbar {
+    height: 72px;
+    background-color: #fff;
+    padding: 0 0 0 24px;
+    box-shadow: 0 2px 15px rgba(0,0,0,.05);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 72px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+.navbar img {
+    width: 220px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,.85);
+}
+
+
+
+/* Drop Down */
+.dropdown-menu .TH:hover {
+    color: #c21c23;
+}
+
+.dropdown-menu .EN:hover {
+    color: #c21c23;
+}
+
+.dropdown {
+    position: relative;
+    right: 35px;
+}
+
+.dropdown-menu {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-right: 0;
+    left: -30px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    padding: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    list-style: none;
+}
+
+.menu .location:hover {
+    color: #c21c23;
+}
+
+.menu .reg:hover {
+    color: #c21c23;
+}
+
+.menu .log:hover {
+    color: #c21c23;
+}
+
+.dropdown-menu li {
+    text-align: left;
+    display: inline-block;
+}
+
+.menu li {
+    margin: 0 30px;
+    cursor: pointer;
+    position: relative; 
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+

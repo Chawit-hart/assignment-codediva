@@ -1,0 +1,272 @@
+.layout {
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 24px;
+}
+
+.box-register {
+    max-width: 480px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.box-header {
+    color: #fff;
+    height: 240px;
+    padding: 32px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #dbdbdb;
+    background-size: cover;
+    background-position: top;
+    background-image: url('./component/img/header-register.png');
+}
+
+.content h2 {
+    color: inherit;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.box-body{
+    padding: 40px;
+}
+
+.form-content {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #787878;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+}
+
+/* row1 = input ชื่อ นามสกุล */
+
+.row-1 {
+    position: relative;
+    height: auto;
+    margin-right: 0;
+    margin-left: 0;
+    zoom: 1;
+    display: flex;
+    box-sizing: border-box;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.name {
+    margin-bottom: 15px;
+}
+
+.input {
+    position: relative;
+    line-height: 48px;
+    zoom: 1;
+}
+
+.form-item-children{
+    position: relative;
+}
+
+.input:placeholder-shown{
+    text-overflow: ellipsis;
+}
+
+.input-box{
+    box-sizing: border-box;
+    margin: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: "tnum","tnum";
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 48px;
+    padding: 4px 11px;
+    color: #787878;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.lastname {
+    padding-left: 25px;
+}
+
+.label-name{
+    font-size: 14px;
+    color: #3b3b3b;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.label-lastname {
+    font-size: 14px;
+    color: #3b3b3b;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+/* row-2 = เบอร์โทรศัพท์ */
+
+.row-2{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.phone{
+    margin-bottom: 15px;
+}
+
+.label-phone{
+    font-size: 14px;
+    color: #3b3b3b;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+/* row-3 = email */
+
+.row-3{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.label-email {
+    margin-bottom: 5px;
+}
+
+.email {
+    margin-bottom: 15px;
+}
+
+/* row-4 = password */ 
+
+.row-4{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.label-password {
+    margin-bottom: 5px;
+}
+
+.password {
+    margin-bottom: 15px;
+}
+
+/* row-5 = gender */
+
+.row-5{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.gender {
+    margin-bottom: 15px;
+}
+
+.radio-button-wrapper{
+    display: flex;
+}
+
+.gender-radio .female {
+    margin-left: 20px;
+}
+
+.gender-radio .male {
+    margin-left: 20px;
+}
+
+.gender-radio .none {
+    margin-left: 20px;
+}
+
+/* row-6 birthday */
+
+.row-6{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.label-birthday{
+    margin-bottom: 5px;
+}
+
+/* row-7 term */
+
+.checkbox{
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.label-term{
+    margin-top: 5px;
+}
+
+.info {
+    margin-left: 10px;
+}
+
+.marketing {
+    margin-top: 5px;
+}
+
+/* row-8 button */
+
+.row-8 {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+
+.button-submit {
+    cursor: pointer;
+    line-height: 1.499;
+    position: relative;
+    display: inline-block;
+    font-weight: 300;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    box-shadow: 0 2px 0 rgba(0,0,0,.015);
+    cursor: pointer;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+    touch-action: manipulation;
+    height: 48px;
+    font-size: 14px;
+    border-radius: 50px;
+    color: #e21c23;
+    background-color: #fff;
+    border: 1px solid #e21c23;
+    width: 100%;
+    margin-top: 15px;
+    transform: translateX(-100px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.button-submit:hover {
+    color: #fff;
+    background-color: #e21c23;
+}
+
+

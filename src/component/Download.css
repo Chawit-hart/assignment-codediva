@@ -1,0 +1,72 @@
+.page-bottom {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    background-image: url('img/bg.jpg');
+}
+
+.page-bottom-app {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.page-bottom .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 24px;
+    display: flex;
+    width: 37.5%;
+    box-sizing: border-box;
+}
+
+.app-downloads .heading{
+    font-size: 40px;
+    margin: 0 0 24px;
+    display: flex;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.heading h2 {
+    font-size: 24px;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+    display: flex;
+    white-space: nowrap;
+    margin-left: 150px;
+}
+
+.download-list {
+    margin-left: -12px;
+    margin-right: -12px;
+    display: flex;
+    position: relative;
+    zoom: 1;
+    justify-content: center;
+}
+
+
+.google-play img {
+    display: flex;
+    width: 200px;
+    height: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+}
+
+.app-store img {
+    display: flex;
+    width: 200px;
+    height: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.download-container{
+    margin-top: 150px;
+}
